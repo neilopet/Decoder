@@ -1,0 +1,59 @@
+[  
+    {
+        "id": "Decoder",
+    	"caption": "Encode",
+    	"children":
+    	[
+    		{
+    			"caption": "Base64 Encode",
+    			"command": "base64_encode"
+    		},
+    		{
+    			"caption": "URL Encode",
+    			"command": "string_to_url_encode"
+    		},
+    		{
+    			"caption": "HTML Special Chars",
+    			"command": "string_to_html_special_chars"
+    		},
+    		{
+    			"caption": "MD5",
+    			"command": "string_to_md5"
+    		},
+    		{
+    			"caption": "SHA-1",
+    			"command": "string_to_sha1"
+    		},
+    		{
+    			"caption": "String to Hex",
+    			"command": "string_to_hex"
+    		},
+    		{
+    			"caption": "String to Binary",
+    			"command": "string_to_binary"
+    		}
+    	]
+    },
+    {  
+        "caption": "Decode", 
+        "children": 
+        [
+        	{
+	        	"caption": "Base64 Decode",
+	        	"command": "base64_decode"
+	       	},
+	       	{
+    			"caption": "URL Decode",
+    			"command": "url_encode_to_string"
+    		},
+	       	{
+    			"caption": "Hex to String",
+    			"command": "hex_to_string"
+    		},
+    		{
+    			"caption": "Binary to String",
+    			"command": "binary_to_string"
+    		}
+        ]
+    }
+]  
